@@ -1,0 +1,72 @@
+{
+  "app": { "name": "Международная школа The Knowledge Academy", "short": "TKA" },
+  "nav": {
+    "dashboard": "Панель управления", "employees": "Сотрудники", "students": "Учащиеся", "parents": "Родители",
+    "attendance": "Посещаемость", "reports": "Отчёты", "devices": "Устройства и RFID", "users": "Пользователи и роли",
+    "audit": "Журнал аудита", "settings": "Настройки", "logout": "Выйти"
+  },
+  "login": {
+    "title": "Вход в систему", "subtitle": "Портал для сотрудников и администрации",
+    "username": "Логин или email", "password": "Пароль", "submit": "Войти",
+    "twoFactor": "Введите 6-значный код из приложения-аутентификатора", "twoFactorCode": "Код подтверждения",
+    "verify": "Подтвердить", "error": "Не удалось войти", "forgot": "Забыли пароль? Обратитесь в IT-поддержку."
+  },
+  "common": {
+    "search": "Поиск", "filter": "Фильтр", "filters": "Фильтры", "add": "Добавить", "edit": "Изменить", "delete": "Удалить",
+    "save": "Сохранить изменения", "cancel": "Отмена", "close": "Закрыть", "actions": "Действия", "status": "Статус",
+    "all": "Все", "active": "Активен", "inactive": "Неактивен", "loading": "Загрузка…", "noResults": "Ничего не найдено",
+    "page": "Страница", "of": "из", "export": "Экспорт", "import": "Импорт", "rowsPerPage": "Строк на странице",
+    "confirmDeleteTitle": "Удалить запись?", "confirmDeleteBody": "Запись сразу исчезнет из списков. Администраторы всё ещё смогут увидеть её в журнале аудита.",
+    "yesDelete": "Да, удалить", "createdOn": "Дата создания", "updatedOn": "Последнее обновление", "viewProfile": "Открыть профиль",
+    "phone": "Телефон", "email": "Email", "address": "Адрес", "notes": "Примечания", "download": "Скачать"
+  },
+  "dashboard": {
+    "welcome": "С возвращением", "totalEmployees": "Всего сотрудников", "totalStudents": "Всего учащихся",
+    "totalParents": "Всего родителей", "presentToday": "Присутствуют сегодня", "absentToday": "Отсутствуют сегодня",
+    "lateToday": "Опоздали сегодня", "attendanceRate": "Посещаемость", "weeklyTrend": "Посещаемость — 7 дней",
+    "quickActions": "Быстрые действия", "addEmployee": "Добавить сотрудника", "addStudent": "Добавить учащегося", "viewAttendance": "Журнал посещаемости"
+  },
+  "employees": {
+    "title": "Сотрудники", "subtitle": "Управление личными делами, контрактами и отделами",
+    "code": "Табельный номер", "name": "ФИО", "department": "Отдел", "position": "Должность",
+    "hireDate": "Дата приёма", "employmentStatus": "Статус занятости", "addEmployee": "Добавить сотрудника",
+    "personalInfo": "Личные данные", "employmentInfo": "Занятость", "emergencyContact": "Экстренный контакт",
+    "salary": "Оплата труда", "customFields": "Дополнительные сведения"
+  },
+  "students": {
+    "title": "Учащиеся", "subtitle": "Управление личными делами и классами",
+    "code": "Номер учащегося", "name": "ФИО", "class": "Класс", "enrollmentDate": "Дата зачисления",
+    "studentStatus": "Статус", "addStudent": "Добавить учащегося", "guardians": "Родители / опекуны",
+    "medical": "Медицинские заметки", "personalInfo": "Личные данные"
+  },
+  "parents": {
+    "title": "Родители", "subtitle": "Управление контактами родителей и опекунов",
+    "code": "Номер родителя", "name": "ФИО", "children": "Дети", "addParent": "Добавить родителя",
+    "occupation": "Профессия", "workplace": "Место работы", "relationship": "Родство", "primaryContact": "Основной контакт",
+    "canPickup": "Имеет право забирать"
+  },
+  "attendance": {
+    "title": "Посещаемость", "subtitle": "Журнал входов/выходов с турникетов RFID и ручных записей",
+    "eventLog": "Журнал событий", "dailySummary": "Сводка за день", "owner": "Лицо", "event": "Событие",
+    "entry": "Вход", "exit": "Выход", "timestamp": "Время", "source": "Источник", "device": "Устройство",
+    "recordManual": "Ручная запись посещаемости", "present": "Присутствует", "absent": "Отсутствует", "late": "Опоздание", "leftEarly": "Ушёл раньше",
+    "firstEntry": "Первый вход", "lastExit": "Последний выход", "hoursPresent": "Время присутствия"
+  },
+  "devices": {
+    "title": "Устройства и RFID-карты", "subtitle": "Турникеты, точки доступа и выданные RFID-карты",
+    "deviceCode": "Код устройства", "location": "Расположение", "direction": "Направление", "online": "В сети", "offline": "Не в сети",
+    "addDevice": "Зарегистрировать устройство", "cards": "RFID-карты", "cardUid": "UID карты", "owner": "Владелец",
+    "issueCard": "Выдать карту", "revoke": "Отозвать"
+  },
+  "settings": {
+    "title": "Настройки", "subtitle": "Брендинг, языки, резервные копии и конфигурация системы",
+    "branding": "Брендинг", "language": "Язык", "theme": "Тема", "light": "Светлая", "dark": "Тёмная",
+    "customFields": "Дополнительные поля", "backups": "Резервные копии", "runBackupNow": "Создать резервную копию"
+  },
+  "users": {
+    "title": "Пользователи и роли", "subtitle": "Учётные записи, роли и права доступа", "role": "Роль",
+    "lastLogin": "Последний вход", "addUser": "Добавить пользователя", "resetPassword": "Сбросить пароль", "deactivate": "Деактивировать",
+    "permissions": "Права доступа", "addRole": "Добавить роль"
+  },
+  "audit": { "title": "Журнал аудита", "subtitle": "Все создания, изменения и удаления в системе", "user": "Пользователь", "action": "Действие", "entity": "Объект", "when": "Когда" }
+}

@@ -1,0 +1,72 @@
+{
+  "app": { "name": "The Knowledge Academy International School", "short": "TKA" },
+  "nav": {
+    "dashboard": "Dashboard", "employees": "Employees", "students": "Students", "parents": "Parents",
+    "attendance": "Attendance", "reports": "Reports", "devices": "Devices & RFID", "users": "Users & Roles",
+    "audit": "Audit Log", "settings": "Settings", "logout": "Log out"
+  },
+  "login": {
+    "title": "Sign in to your account", "subtitle": "Staff and administration portal",
+    "username": "Username or email", "password": "Password", "submit": "Sign in",
+    "twoFactor": "Enter the 6-digit code from your authenticator app", "twoFactorCode": "Verification code",
+    "verify": "Verify", "error": "Unable to sign in", "forgot": "Forgot your password? Contact IT support."
+  },
+  "common": {
+    "search": "Search", "filter": "Filter", "filters": "Filters", "add": "Add", "edit": "Edit", "delete": "Delete",
+    "save": "Save changes", "cancel": "Cancel", "close": "Close", "actions": "Actions", "status": "Status",
+    "all": "All", "active": "Active", "inactive": "Inactive", "loading": "Loading…", "noResults": "No results found",
+    "page": "Page", "of": "of", "export": "Export", "import": "Import", "rowsPerPage": "Rows per page",
+    "confirmDeleteTitle": "Delete this record?", "confirmDeleteBody": "This removes the record from active lists immediately. Administrators can still see it in the audit log.",
+    "yesDelete": "Yes, delete", "createdOn": "Created on", "updatedOn": "Last updated", "viewProfile": "View profile",
+    "phone": "Phone", "email": "Email", "address": "Address", "notes": "Notes", "download": "Download"
+  },
+  "dashboard": {
+    "welcome": "Welcome back", "totalEmployees": "Total employees", "totalStudents": "Total students",
+    "totalParents": "Total parents", "presentToday": "Present today", "absentToday": "Absent today",
+    "lateToday": "Late today", "attendanceRate": "Attendance rate", "weeklyTrend": "Attendance — last 7 days",
+    "quickActions": "Quick actions", "addEmployee": "Add employee", "addStudent": "Add student", "viewAttendance": "View attendance log"
+  },
+  "employees": {
+    "title": "Employees", "subtitle": "Manage staff records, contracts and departments",
+    "code": "Employee ID", "name": "Name", "department": "Department", "position": "Position",
+    "hireDate": "Hire date", "employmentStatus": "Employment status", "addEmployee": "Add employee",
+    "personalInfo": "Personal information", "employmentInfo": "Employment", "emergencyContact": "Emergency contact",
+    "salary": "Compensation", "customFields": "Additional information"
+  },
+  "students": {
+    "title": "Students", "subtitle": "Manage student records and class assignments",
+    "code": "Student ID", "name": "Name", "class": "Class", "enrollmentDate": "Enrollment date",
+    "studentStatus": "Status", "addStudent": "Add student", "guardians": "Parents / guardians",
+    "medical": "Medical notes", "personalInfo": "Personal information"
+  },
+  "parents": {
+    "title": "Parents", "subtitle": "Manage parent and guardian contacts",
+    "code": "Parent ID", "name": "Name", "children": "Children", "addParent": "Add parent",
+    "occupation": "Occupation", "workplace": "Workplace", "relationship": "Relationship", "primaryContact": "Primary contact",
+    "canPickup": "Authorized for pickup"
+  },
+  "attendance": {
+    "title": "Attendance", "subtitle": "Live entry/exit log from RFID turnstiles and manual records",
+    "eventLog": "Event log", "dailySummary": "Daily summary", "owner": "Person", "event": "Event",
+    "entry": "Entry", "exit": "Exit", "timestamp": "Timestamp", "source": "Source", "device": "Device",
+    "recordManual": "Record manual attendance", "present": "Present", "absent": "Absent", "late": "Late", "leftEarly": "Left early",
+    "firstEntry": "First entry", "lastExit": "Last exit", "hoursPresent": "Time present"
+  },
+  "devices": {
+    "title": "Devices & RFID cards", "subtitle": "Turnstiles, access points and issued RFID cards",
+    "deviceCode": "Device code", "location": "Location", "direction": "Direction", "online": "Online", "offline": "Offline",
+    "addDevice": "Register device", "cards": "RFID cards", "cardUid": "Card UID", "owner": "Assigned to",
+    "issueCard": "Issue card", "revoke": "Revoke"
+  },
+  "settings": {
+    "title": "Settings", "subtitle": "Branding, languages, backups and system configuration",
+    "branding": "Branding", "language": "Language", "theme": "Theme", "light": "Light", "dark": "Dark",
+    "customFields": "Custom fields", "backups": "Backups", "runBackupNow": "Run backup now"
+  },
+  "users": {
+    "title": "Users & roles", "subtitle": "Accounts, roles and granular permissions", "role": "Role",
+    "lastLogin": "Last login", "addUser": "Add user", "resetPassword": "Reset password", "deactivate": "Deactivate",
+    "permissions": "Permissions", "addRole": "Add role"
+  },
+  "audit": { "title": "Audit log", "subtitle": "Every create, update and delete across the system", "user": "User", "action": "Action", "entity": "Entity", "when": "When" }
+}

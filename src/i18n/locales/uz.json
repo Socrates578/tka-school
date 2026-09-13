@@ -1,0 +1,72 @@
+{
+  "app": { "name": "The Knowledge Academy xalqaro maktabi", "short": "TKA" },
+  "nav": {
+    "dashboard": "Boshqaruv paneli", "employees": "Xodimlar", "students": "O'quvchilar", "parents": "Ota-onalar",
+    "attendance": "Davomat", "reports": "Hisobotlar", "devices": "Qurilmalar va RFID", "users": "Foydalanuvchilar va rollar",
+    "audit": "Audit jurnali", "settings": "Sozlamalar", "logout": "Chiqish"
+  },
+  "login": {
+    "title": "Tizimga kirish", "subtitle": "Xodimlar va ma'muriyat portali",
+    "username": "Login yoki email", "password": "Parol", "submit": "Kirish",
+    "twoFactor": "Autentifikator ilovasidagi 6 xonali kodni kiriting", "twoFactorCode": "Tasdiqlash kodi",
+    "verify": "Tasdiqlash", "error": "Kirib bo'lmadi", "forgot": "Parolni unutdingizmi? IT xizmatiga murojaat qiling."
+  },
+  "common": {
+    "search": "Qidirish", "filter": "Filtr", "filters": "Filtrlar", "add": "Qo'shish", "edit": "Tahrirlash", "delete": "O'chirish",
+    "save": "Saqlash", "cancel": "Bekor qilish", "close": "Yopish", "actions": "Amallar", "status": "Holati",
+    "all": "Barchasi", "active": "Faol", "inactive": "Faol emas", "loading": "Yuklanmoqda…", "noResults": "Hech narsa topilmadi",
+    "page": "Sahifa", "of": "dan", "export": "Eksport", "import": "Import", "rowsPerPage": "Sahifadagi qatorlar",
+    "confirmDeleteTitle": "Yozuvni o'chirasizmi?", "confirmDeleteBody": "Yozuv ro'yxatlardan darhol yo'qoladi. Administratorlar uni audit jurnalida ko'ra oladi.",
+    "yesDelete": "Ha, o'chirish", "createdOn": "Yaratilgan sana", "updatedOn": "Oxirgi yangilanish", "viewProfile": "Profilni ko'rish",
+    "phone": "Telefon", "email": "Email", "address": "Manzil", "notes": "Izohlar", "download": "Yuklab olish"
+  },
+  "dashboard": {
+    "welcome": "Xush kelibsiz", "totalEmployees": "Jami xodimlar", "totalStudents": "Jami o'quvchilar",
+    "totalParents": "Jami ota-onalar", "presentToday": "Bugun kelganlar", "absentToday": "Bugun kelmaganlar",
+    "lateToday": "Bugun kechikkanlar", "attendanceRate": "Davomat ko'rsatkichi", "weeklyTrend": "Davomat — so'nggi 7 kun",
+    "quickActions": "Tezkor amallar", "addEmployee": "Xodim qo'shish", "addStudent": "O'quvchi qo'shish", "viewAttendance": "Davomat jurnalini ko'rish"
+  },
+  "employees": {
+    "title": "Xodimlar", "subtitle": "Xodimlar ma'lumotlari, shartnomalar va bo'limlarni boshqarish",
+    "code": "Xodim ID", "name": "F.I.Sh.", "department": "Bo'lim", "position": "Lavozim",
+    "hireDate": "Ishga qabul sanasi", "employmentStatus": "Bandlik holati", "addEmployee": "Xodim qo'shish",
+    "personalInfo": "Shaxsiy ma'lumotlar", "employmentInfo": "Bandlik", "emergencyContact": "Favqulodda aloqa",
+    "salary": "Maosh", "customFields": "Qo'shimcha ma'lumot"
+  },
+  "students": {
+    "title": "O'quvchilar", "subtitle": "O'quvchilar ma'lumotlari va sinflarni boshqarish",
+    "code": "O'quvchi ID", "name": "F.I.Sh.", "class": "Sinf", "enrollmentDate": "Qabul qilingan sana",
+    "studentStatus": "Holati", "addStudent": "O'quvchi qo'shish", "guardians": "Ota-onalar / vasiylar",
+    "medical": "Tibbiy izohlar", "personalInfo": "Shaxsiy ma'lumotlar"
+  },
+  "parents": {
+    "title": "Ota-onalar", "subtitle": "Ota-ona va vasiylar kontaktlarini boshqarish",
+    "code": "Ota-ona ID", "name": "F.I.Sh.", "children": "Farzandlar", "addParent": "Ota-ona qo'shish",
+    "occupation": "Kasbi", "workplace": "Ish joyi", "relationship": "Qarindoshlik", "primaryContact": "Asosiy kontakt",
+    "canPickup": "Olib ketishga vakolatli"
+  },
+  "attendance": {
+    "title": "Davomat", "subtitle": "RFID turniketlar va qo'lda kiritilgan kirish/chiqish jurnali",
+    "eventLog": "Hodisalar jurnali", "dailySummary": "Kunlik xulosa", "owner": "Shaxs", "event": "Hodisa",
+    "entry": "Kirish", "exit": "Chiqish", "timestamp": "Vaqt", "source": "Manba", "device": "Qurilma",
+    "recordManual": "Qo'lda davomat qayd etish", "present": "Kelgan", "absent": "Kelmagan", "late": "Kechikkan", "leftEarly": "Erta ketgan",
+    "firstEntry": "Birinchi kirish", "lastExit": "Oxirgi chiqish", "hoursPresent": "Maktabda bo'lgan vaqt"
+  },
+  "devices": {
+    "title": "Qurilmalar va RFID kartalar", "subtitle": "Turniketlar, kirish nuqtalari va berilgan RFID kartalar",
+    "deviceCode": "Qurilma kodi", "location": "Joylashuvi", "direction": "Yo'nalish", "online": "Onlayn", "offline": "Oflayn",
+    "addDevice": "Qurilmani ro'yxatga olish", "cards": "RFID kartalar", "cardUid": "Karta UID", "owner": "Biriktirilgan",
+    "issueCard": "Karta berish", "revoke": "Bekor qilish"
+  },
+  "settings": {
+    "title": "Sozlamalar", "subtitle": "Brending, tillar, zaxira nusxalar va tizim sozlamalari",
+    "branding": "Brending", "language": "Til", "theme": "Mavzu", "light": "Yorug'", "dark": "Qorong'i",
+    "customFields": "Qo'shimcha maydonlar", "backups": "Zaxira nusxalar", "runBackupNow": "Hozir zaxira olish"
+  },
+  "users": {
+    "title": "Foydalanuvchilar va rollar", "subtitle": "Hisoblar, rollar va ruxsatlar", "role": "Rol",
+    "lastLogin": "Oxirgi kirish", "addUser": "Foydalanuvchi qo'shish", "resetPassword": "Parolni tiklash", "deactivate": "Faolsizlantirish",
+    "permissions": "Ruxsatlar", "addRole": "Rol qo'shish"
+  },
+  "audit": { "title": "Audit jurnali", "subtitle": "Tizimdagi barcha yaratish, o'zgartirish va o'chirishlar", "user": "Foydalanuvchi", "action": "Amal", "entity": "Ob'ekt", "when": "Qachon" }
+}
